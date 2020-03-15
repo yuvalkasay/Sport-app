@@ -1,2 +1,2 @@
 # Sport-app
-Football UFC and NBA website include videos, schedule and statistics
+Football UFC and NBA website with videos, schedule and statistics

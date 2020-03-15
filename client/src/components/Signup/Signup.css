@@ -1,0 +1,35 @@
+.signup {
+    padding: 50px;
+    width: 60%;
+    margin: 0 auto;
+    min-height: 100vh;
+} 
+
+.signup > form {
+    width: 50%;
+}
+
+.signupdiv h2 {
+    text-align: center;
+    background-color: inherit;
+}
+
+.signupdiv {
+    padding: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://cdn.pixabay.com/photo/2019/05/18/14/42/jogging-4211946_1280.jpg);
+    background-size: cover;
+    color: white;
+}
+.alert-warning {
+    color: #856404;
+    background-color: #f4db8ef2;
+    border-color: #ffeeba;
+    width: 60%;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttons {
+    margin: 2px;
+}

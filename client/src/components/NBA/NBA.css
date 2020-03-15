@@ -1,0 +1,63 @@
+.week {
+    font-weight: bold;
+    font-size: 70%; 
+    color: lightgray;
+}
+
+.main-th {
+    color: rgb(214, 214, 214);
+}
+
+.date {
+    font-weight: bold;
+    font-size: 105%;
+    color: rgb(16, 129, 214);
+}
+
+.date-time {
+    float: left;
+}
+
+
+.city-div span {
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.time-zone {
+    float: left;
+    margin: 0 145px;
+}
+
+.detail-section {
+    color: gray;
+}
+
+.upcomingGames {
+    float: left;
+    margin-right: 145px;
+}
+
+.nba-title {
+    color: rgb(235, 155, 8);
+}
+
+.teams > p {
+    color: rgb(16, 129, 214);
+    font-weight: bold;
+}
+
+.div-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2015/09/09/20/33/basketball-933173_1280.jpg);
+    background-attachment: fixed;
+    color: white;
+    background-size: cover;
+}
+
+.time-td, .arena-td {
+    color: lightgray;
+}
+
+.schedule-table {
+    margin-bottom: 0px;
+}

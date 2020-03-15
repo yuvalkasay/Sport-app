@@ -1,0 +1,65 @@
+.football {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://cdn.pixabay.com/photo/2015/09/02/13/01/stadium-918830_1280.jpg);
+    background-attachment: fixed;
+    color: white;
+    background-size: cover;
+    min-height: 100vh;  
+}
+
+.country-buttons > button {
+    font-size: 110%;
+    background: none;
+    border: none;
+    margin: 2px 28px 18px 34px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.country-buttons > button:hover {
+
+    transition: .1s;
+    color: rgb(39, 56, 41);
+}
+
+.video-div {
+    width: 97%;
+    height: 270px;
+}
+
+.main-div {
+    display: flex;
+    flex-flow: wrap; 
+    justify-content: space-evenly;
+}
+
+.football-title {
+    padding: 5px 0px 5px 42px;
+}
+
+.each-game {
+    width: 45%;
+    height: 50%;
+    margin-bottom: 30px;
+    background-color: #D6D6D624;
+    border-radius: 6px;
+    box-shadow: 4px 6px 5px black;
+}
+
+
+
+@media only screen and (max-width: 800px)
+{
+    .each-game {
+        width: 90%;
+        height: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+.loading-spinner {
+    position: relative;
+    left: 45%;
+    top: 50%;
+
+}

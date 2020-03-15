@@ -1,0 +1,45 @@
+.logos {
+    margin: 2% 2%;
+    background-color: rgba(207, 207, 207, 0.329);
+    border-radius: 6px;
+    box-shadow: 4px 6px 5px black;
+}
+
+.logos > img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.team-info {
+    width: 50%;
+    z-index: 18;
+    top: 10%;
+    right: 24%;
+    height: auto;
+    background-color:  rgba(0, 0, 0, 0.788);
+    position: fixed;
+    text-align: center;
+}
+
+.exit-btn {
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+.exit-btn:hover {
+    transform: scale(1.2);
+    color: orange;
+}
+
+.logo-in-div {
+    width: 20%;
+}
+
+.logo-title {
+    color: rgb(235, 155, 8);
+}
+
+.fa {
+    /* color: black; */
+}

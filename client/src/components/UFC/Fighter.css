@@ -1,0 +1,45 @@
+.Fighter{
+    text-align: center;
+    border-radius: 8px;
+    width: 22%;
+    margin: 10px 0;
+    height: 454px;
+    background-color: #D6D6D624;
+    border-radius: 6px;
+    box-shadow: 4px 6px 5px black;
+    cursor: pointer;
+}
+.Fighter h3{
+    text-align: center;
+}
+.Fighter img{
+    height: 280px;
+    box-sizing: border-box;
+}
+.Ufc-fighters{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1100px)
+{
+    .Fighter{
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 890px)
+{
+    .Fighter{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 660px)
+{
+    .Fighter{
+        width: 95%;
+    }
+}

@@ -1,0 +1,56 @@
+.Ufc .w-100 {
+    width: 70%!important;
+    margin: 5px auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 17px #927575;
+}
+.Ufc h1{
+    text-align: center;
+    color: white;
+}
+.carousel {
+    position: relative;
+    background-color: #00000047;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fe5252;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    height: 15px;
+    width: 35px;
+    border-radius: 24px;
+}
+.Ufc_singleFighter{
+display: contents;
+
+}
+.Ufc-fighters{
+    position: relative;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://cdn.wallpapersafari.com/73/83/snV0ix.jpg); */
+    color: white;
+    background-attachment: fixed;
+
+}
+
+.Ufc {
+    /* background-color: black; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://cdn.wallpapersafari.com/73/83/snV0ix.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.nav-link {
+ 
+}

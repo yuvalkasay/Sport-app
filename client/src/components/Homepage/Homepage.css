@@ -1,0 +1,118 @@
+
+.images {
+  background-color: #f5f5f5bd;
+  /* height: 80%; */
+  /* height: 90vh; */
+  width: 70%;
+  margin: 0% auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  top: 45px;
+}
+
+.images > a > img {
+  width: 20%;
+  display: inline-block;
+  margin: 7px 15px;
+  padding: 5px;
+}
+
+.fun-logo {
+  width: 20%;
+}
+
+.football-logo{
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-around;
+}
+
+.seria-a {
+    width: 10%;  
+}
+
+.Premier-League  {
+    width: 22%;
+}
+
+.la-liga {
+    width: 14%;
+}
+
+.Homepage.frame {
+  background-color: #eee;
+  background-position: center;
+  background-size: cover;
+  animation: image 35s infinite linear;
+  min-height: 90vh;
+  width: 100%;
+  margin: 0;
+  }
+  
+@keyframes image 
+{
+    0% {
+      background-image: url('./HomeImages/Dortmound.png');
+    }  
+    20% {
+        background-image: url('./HomeImages/RonaldoMessi.png');
+      }  
+      40% {
+        background-image: url('./HomeImages/KhabibMcCgregor.png');
+      }  
+      60% {
+        background-image: url('./HomeImages/Octagon.png');
+      }  
+      80% {
+        background-image: url('./HomeImages/Jordan.png');
+      }  
+    100% {
+        background-image: url('./HomeImages/NbaARena.png');
+      }
+    
+}
+
+.welcome-para {
+  margin-bottom: 0px;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 650px)
+{
+    .welcome-para {
+      /* font-size: 85%; */
+      padding-top: 15px;
+    }
+    .fun-logo {
+      width: 30%;
+    }
+    
+    .images {
+      height: 65vh;
+    }
+    
+    .football-logo{
+      /* display: flex; */
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    .seria-a {
+        width: 15%;  
+    }
+    
+    .Premier-League  {
+        width: 27%;
+    }
+    
+    .la-liga {
+        width: 19%;
+    }
+
+    .nba-logo{
+      margin-top: 10px;
+    }
+}
